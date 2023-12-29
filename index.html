@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animedoro</title>
+
+    <!-- ! FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  ! ICONS -->
+    <script
+      src="https://kit.fontawesome.com/a6bfa777a5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  ! CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Animedoro</h1>
+
+        <div class="painel">
+          <p id="work">Work</p>
+          <p id="break">Break</p>
+        </div>
+
+        <div class="timer">
+          <div class="circle">
+            <div class="time">
+              <p id="minutes">25</p>
+              <p>:</p>
+              <p id="seconds">00</p>
+            </div>
+          </div>
+
+          <div class="controls">
+            <button id="start" onclick="start()">
+              <i class="fa-solid fa-play"></i>
+            </button>
+
+            <a id="reset" href="/"
+              ><i class="fa-solid fa-arrow-rotate-left"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! SCRIPT -->
+    <script src="./script.js"></script>
+  </body>
+</html>
