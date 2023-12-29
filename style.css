@@ -53,7 +53,7 @@ section {
   flex-direction: column;
 }
 
-.painel {
+.panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
@@ -65,12 +65,12 @@ section {
   box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
 
-.painel p {
+.panel p {
   opacity: 0.8;
   transition: 1s ease-in;
 }
 
-.painel p.active {
+.panel p.active {
   opacity: 1;
   color: var(--color-secondary);
 }
