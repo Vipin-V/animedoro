@@ -1,4 +1,4 @@
-# Animedoro (Developement)
+# Animedoro
 
 ## What is Animedoro?
 
